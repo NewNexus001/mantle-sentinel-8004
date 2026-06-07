@@ -1,0 +1,19 @@
+{
+  "name": "mantle-sentinel-8004-contracts",
+  "version": "1.0.0",
+  "description": "Mantle Sentinel-8004: High-Velocity Cross-Chain Quantitative Liquidity Protection Loop — ERC-8004 Compliant | UltraPlonk Verified | Automated Invariant Guardianship Framework",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:mantle": "hardhat run scripts/deploy.js --network mantle",
+    "deploy:mantle-testnet": "hardhat run scripts/deploy.js --network mantle-testnet"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}

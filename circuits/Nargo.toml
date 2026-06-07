@@ -1,0 +1,6 @@
+[package]
+name = "sentinel_proof"
+type = "bin"
+compiler_version = ">=0.20.0"
+
+[dependencies]
